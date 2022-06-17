@@ -1,0 +1,11 @@
+# action.yml
+name: 'Sigrid CI'
+description: 'Sigrid CI job'
+inputs:
+  
+outputs:
+  
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
